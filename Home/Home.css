@@ -1,0 +1,174 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Banner */
+  .banner {
+    background: url("https://source.unsplash.com/1600x500/?food,waste") center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Cards */
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background: #e8f5e9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Banner */
+  .banner {
+    background: url("./Img/banner.jpg") center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 50vh;
+  }
+  
+  .banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Cards */
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background: #e8f5e9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  img{
+   width: 100%;
+  }
